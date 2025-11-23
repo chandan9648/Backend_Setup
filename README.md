@@ -3,15 +3,18 @@
 ## 1. Clone the Project
 
 ```bash
-git clone <repo-url>
-cd backend
-```
+git clone https://github.com/chandan9648/Backend_Setup.git
 
-## 2. Install Dependencies
+```
+cd backend
+
+## 2. Install global Dependencies
 
 ```bash
-npm install
+npm init -y
+npm i express mongoose dotenv
 ```
+
 
 ## 3. Create Environment File
 
@@ -58,7 +61,7 @@ src/app.js
   .env
 ```
 
-## 9. Required Packages
+## 9. Required Packages(Must be in our project)
 
 Installed automatically from `package.json`:
 
